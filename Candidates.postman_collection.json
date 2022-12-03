@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "33ae8d9f-b07c-4ab2-82f3-bd5ef9eba65d",
+		"name": "Candidates",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17857018"
+	},
+	"item": [
+		{
+			"name": "Get single candidate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/candidates/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"candidates",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all canditates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/candidates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"candidates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add new candidate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"George\",\r\n    \"location\": \"Calarasi\",\r\n    \"phone\": \"0785444213\",\r\n    \"courses completed\": [\r\n        \"Java\",\r\n        \"Ruby\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/candidates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"candidates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update candidate",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Alin\",\r\n    \"location\": \"Suceava\",\r\n    \"phone\": \"0785447999\",\r\n    \"courses completed\": [\r\n        \"C++\",\r\n        \"C#\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/candidates/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"candidates",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update just name of candidate",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Alex\",\r\n    \"location\": \"Suceava\",\r\n    \"phone\": \"0785447999\",\r\n    \"courses completed\": [\r\n        \"C++\",\r\n        \"C#\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/candidates/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"candidates",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete candidate",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Alex\",\r\n    \"location\": \"Suceava\",\r\n    \"phone\": \"0785447999\",\r\n    \"courses completed\": [\r\n        \"C++\",\r\n        \"C#\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/candidates/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"candidates",
+						"6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
