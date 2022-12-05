@@ -1,0 +1,214 @@
+{
+  "candidates": [
+    {
+      "id": 1,
+      "name": "Romica",
+      "location": "Bacau",
+      "phone": "0785649210",
+      "coursesCompleted": [
+        "JavaScript",
+        "Cypress"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Andrei",
+      "location": "Iasi",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C++",
+        "Selenium"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ioana",
+      "location": "Bucharest",
+      "phone": "0787231444",
+      "coursesCompleted": [
+        "Phyton",
+        "Selenium"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Virgil",
+      "location": "Galati",
+      "phone": "0785649210",
+      "coursesCompleted": [
+        "Java",
+        "Selenium"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Andreea",
+      "location": "Braila",
+      "phone": "0785664232",
+      "coursesCompleted": [
+        "C#",
+        "Apium"
+      ]
+    },
+    {
+      "name": "Ana-Maria",
+      "location": "Deva",
+      "phone": "0785875545",
+      "coursesCompleted": [
+        "Ruby",
+        "C++"
+      ],
+      "id": 7
+    },
+    {
+      "name": "Alex",
+      "location": "Vaslui",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C#",
+        "C++"
+      ],
+      "id": 8
+    },
+    {
+      "name": "Alex",
+      "location": "Vaslui",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C#",
+        "C++"
+      ],
+      "id": 9
+    },
+    {
+      "name": "Alex",
+      "location": "Vaslui",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C#",
+        "C++"
+      ],
+      "id": 10
+    },
+    {
+      "name": "Alex",
+      "location": "Vaslui",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C#",
+        "C++"
+      ],
+      "id": 11
+    },
+    {
+      "name": "Alex",
+      "location": "Vaslui",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C#",
+        "C++"
+      ],
+      "id": 12
+    },
+    {
+      "name": "Alex",
+      "location": "Vaslui",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C#",
+        "C++"
+      ],
+      "id": 13
+    },
+    {
+      "name": "Alex",
+      "location": "Vaslui",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C#",
+        "C++"
+      ],
+      "id": 14
+    },
+    {
+      "name": "Alex",
+      "location": "Vaslui",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C#",
+        "C++"
+      ],
+      "id": 15
+    },
+    {
+      "name": "Alex",
+      "location": "Vaslui",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C#",
+        "C++"
+      ],
+      "id": 16
+    },
+    {
+      "name": "Alex",
+      "location": "Vaslui",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C#",
+        "C++"
+      ],
+      "id": 17
+    },
+    {
+      "name": "Alex",
+      "location": "Vaslui",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C#",
+        "C++"
+      ],
+      "id": 18
+    },
+    {
+      "name": "Alex",
+      "location": "Vaslui",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C#",
+        "C++"
+      ],
+      "id": 19
+    },
+    {
+      "name": "Alex",
+      "location": "Vaslui",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C#",
+        "C++"
+      ],
+      "id": 20
+    },
+    {
+      "name": "Alex",
+      "location": "Vaslui",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C#",
+        "C++"
+      ],
+      "id": 21
+    },
+    {
+      "name": "Alex",
+      "location": "Vaslui",
+      "phone": "0785875001",
+      "coursesCompleted": [
+        "C#",
+        "C++"
+      ],
+      "id": 22
+    }
+  ]
+}
